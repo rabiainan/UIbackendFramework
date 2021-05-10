@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = {"Steps"},
         dryRun=false,
-        tags = "@web"
+        tags = "@web or @api"
         //monochrome = true
 
 )
